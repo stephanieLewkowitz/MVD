@@ -102,7 +102,9 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #6e6e6e;
+		color: #72757d;
+		/* AAADC0; */
+		/* color: #6e6e6e; */
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -115,7 +117,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #4eb980;
+		color: #282a2e;
 		text-decoration: none;
 	}
 
@@ -125,7 +127,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 600;
-		color: #5b5b5b;
+		color: #56585e;
 	}
 
 	em, i {
@@ -137,7 +139,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5b5b5b;
+		color: #56585e;
 		font-weight: 700;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
@@ -2066,7 +2068,7 @@ input, select, textarea {
 
 	label {
 		display: block;
-		color: #5b5b5b;
+		color: #56585e;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.125em;
@@ -2107,7 +2109,7 @@ input, select, textarea {
 		select:focus,
 		textarea:focus {
 			background: rgba(224, 224, 224, 0.15);
-			border-color: #4eb980;
+			border-color: #282a2e;
 		}
 
 	input[type="text"],
@@ -2127,7 +2129,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #5b5b5b;
+			color: #56585e;
 			background: #ffffff;
 		}
 
@@ -2498,7 +2500,7 @@ input, select, textarea {
 			}
 
 			table.default th {
-				color: #5b5b5b;
+				color: #56585e;
 				font-size: 0.8em;
 				font-weight: 700;
 				letter-spacing: 0.125em;
@@ -2563,7 +2565,7 @@ input, select, textarea {
 		.button.alt {
 			background: none;
 			box-shadow: inset 0 0 0 1px rgba(224, 224, 224, 0.75);
-			color: #544d55;
+			color: #4d4f54;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2707,7 +2709,7 @@ input, select, textarea {
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
 		/* background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg"); */
-		background-image: url("images/top-3200.svg"), url("../../images/mvd_logo_header4.png");
+		background-image: url("images/top-3200.svg"), url("../../images/mvd_logo_header_huge.png");
 		background-position: bottom center,					top left,				center center;
 		/* background-repeat: repeat-x,						repeat,					no-repeat; */
 		background-repeat: no-repeat,						no-repeat,					no-repeat;
@@ -2745,7 +2747,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #4eb980;
+				color: #282a2e;
 			}
 
 		#header strong, #header b {
@@ -2761,11 +2763,11 @@ input, select, textarea {
 		#header input[type="button"],
 		#header .button {
 			background: #ffffff;
-			color: #544d55;
+			color: #56585e;
 		}
 
 		#header .logo {
-			background: #4eb980;
+			background: #282a2e;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2878,7 +2880,7 @@ input, select, textarea {
 		#footer .button {
 			background: #ffffff;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #4eb980;
+			color: #282a2e;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -3053,7 +3055,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay1.png"),  url("../../images/mvd_logo_header4.png");
+				background-image: url("images/top-1600.svg"), url("images/overlay1.png"),  url("../../images/mvd_logo_header_huge.png");
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
@@ -3191,7 +3193,7 @@ input, select, textarea {
 
 				.feature .image {
 					float: none;
-					height: 15em;
+					height: 24em;
 					width: 100%;
 				}
 
@@ -3215,7 +3217,7 @@ input, select, textarea {
 				}
 
 				#header:after {
-					height: 20px;
+					height: 24px;
 				}
 
 				#header .logo {
